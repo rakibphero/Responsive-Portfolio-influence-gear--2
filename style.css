@@ -158,7 +158,7 @@ nav{
     justify-content: right;
 }
 .banner-photo{
-    background-image: url(../image/Circle\ design.svg);
+    background-image: url(images/Circle design.svg);
     display: flex;
     justify-content: end;
 }
