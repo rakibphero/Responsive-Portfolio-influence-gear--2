@@ -1,267 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Stylesheet -->
+    <title>Responsive-Portfolio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
-    <!-- IonIcons -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <title>Responsive Portfolio</title>
-    <link rel="shortcut icon" href="images/boy.png" type="image/x-icon">
-
 </head>
-<body>
-    <!-- Header Section Start -->
-    <header>
-        <div class="container">
-            <nav class="desktop_navbar">
-                <div class="logo">
-                    <a href="#">Influencer Gears</a>
-                </div>
-                <div class="menu_items">
-                    <ul>
-                        <li class="menu_item"><a href="">Home</a></li>
-                        <li class="menu_item"><a href="">Products</a></li>
-                        <li class="menu_item"><a href="">Sign Up</a></li>
-                        <li class="menu_item"><a href="">Login</a></li>
-                        <li class="menu_item search"><a href=""><ion-icon name="search-outline" size="large"></ion-icon></a></li>
-                        <li class="menu_item cart"><a href=""><ion-icon name="cart-outline" size="large"></ion-icon></a></li>
-                    </ul>
-                </div>
-            </nav>
-            <!-- Mobile Navbar -->
-            <nav class="mb_navbar">
-                <div class="menu_trigger">
-                    <ion-icon name="menu-outline" size="large"></ion-icon>
-                </div>
-                <div class="logo">
-                    <a href="#">Influencer Gears</a>
-                </div>
-                <div class="cart">
-                    <ion-icon name="cart-outline" size="large"></ion-icon>
-                </div>
-                
-            </nav>
-        </div>
-    </header>
-    <!-- Header Section End -->
 
-    
-    <main>
-        <!-- Top Banner Section Start-->
-        <section id="top_banner">
-            <div class="container">
-                <div class="texts_content">
-                    <h1>Start your Journey as
-                    Influencer</h1>
-                    <p>Get more out of your gear with perfectly pared accessories with best quality, best price and best service.</p>
-                    <a href="#" class="button">Prebook Now<ion-icon name="arrow-forward-outline" class="right_arrow"></ion-icon></a>
+<body>
+    <!-- header part -->
+    <header id="home">
+        <nav class="container">
+            <div class="nav-bar">
+                <h3 class="nav-heading">Influencer <span class="heighlit">products</span></h3>
+            </div>
+            <div class="navigation">
+                <input type="checkbox" id="nav-togoler">
+                <label class="nav-togoler-icon" for="nav-togoler">
+                    <i class="nav-icon fas fa-bars"></i>
+                </label>
+                <ul class="navigation-bar">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Sign up</a></li>
+                    <li><a href="">Log in</a></li>
+                    <li><i class="fas fa-search"></i></li>
+                    <li><i class="fas fa-cart-arrow-down"></i></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- banner part -->
+    <section class="container">
+        <div class="banner">
+            <div class="banner-left">
+                <div class="banner-info">
+                    <h1 class="banner-heading">
+                        Start your Journey as
+                        <span class="heighlit">Influencer</span>
+                    </h1>
+                    <p class="banner-pera">
+                        Reading one line that encapsulates our love for photography and art is powerful and often reminds us of the importance of documenting moments with our cameras.
+                    </p>
+                    <button class="my-button">Preebook now <i class="fas fa-arrow-right"></i></button>
                 </div>
-                <div class="image_content">
-                    <img src="images/main-camera.png" alt="">
+            </div>
+            <div class="banner-right">
+                <div class="banner-photo">
+                    <img class="img" src="images/main-camera.png" alt="">
+                </div>
+            </div>
+        </div>
+        <hr class="new">
+        <div class="all-adds">
+            <div class="add"><img src="logos/Alibaba.svg" alt=""></div>
+            <div class="add"><img src="logos/Amazon.svg" alt=""></div>
+            <div class="add"><img src="logos/Daraz.pk Logo.svg" alt=""></div>
+            <div class="add"><img src="logos/Ebay.svg" alt=""></div>
+            <div class="add"><img src="logos/Rakuten.svg" alt=""></div>
+            <div class="add"><img src="logos/Walmart.svg" alt=""></div>
+            <div class="add"><img src="logos/Target.svg" alt=""></div>
+        </div>
+        <hr class="new">
+    </section>
+    <!-- main section -->
+    <main class="container">
+        <h2 class="section-title">
+            Popular <span class="heighlit">Collection</span>
+        </h2>
+        <!-- price card -->
+        <section class="price-cards">
+            <div class="cards">
+                <div class="card">
+                    <div class="card-info">
+                        <div class="photo">
+                            <img src="images/airpod.png" alt="">
+                        </div>
+                        <div class="describtion">
+                            <h1>Flex Tripod <br> $50.48</h1>
+                            <p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>5.00</span>
+                            </p>
+                            <p>Wordwide shifting <br> available <br> Buyers protection possible!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-info">
+                        <div class="photo">
+                            <img src="images/tripod.png" alt="">
+                        </div>
+                        <div class="describtion">
+                            <h1>Microphone <br> $100.48</h1>
+                            <p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>                               
+                                <span>4.99</span>
+                            </p>
+                            <p>Wordwide shifting <br> available <br> Buyers protection possible!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-info">
+                        <div class="photo">
+                            <img src="images/camera.png" alt="">
+                        </div>
+                        <div class="describtion">
+                            <h1>Action Camera <br> $150.48</h1>
+                            <p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>                              
+                                <span>4.99</span>
+                            </p>
+                            <p>Wordwide shifting <br> available <br> Buyers protection possible!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-info">
+                        <div class="photo">
+                            <img src="images/drone.png" alt="">
+                        </div>
+                        <div class="describtion">
+                            <h1>Drone <br> $520.48</h1>
+                            <p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>                               
+                                <span>5.00</span>
+                            </p>
+                            <p>Wordwide shifting <br> available <br> Buyers protection possible!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-info">
+                        <div class="photo">
+                            <img src="images/lights.png" alt="">
+                        </div>
+                        <div class="describtion">
+                            <h1>Light Setup<br> $420.48</h1>
+                            <p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>                            
+                                <span>4.99</span>
+                            </p>
+                            <p>Wordwide shifting <br> available <br> Buyers protection possible!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-info">
+                        <div class="photo">
+                            <img src="images/setup.png" alt="">
+                        </div>
+                        <div class="describtion">
+                            <h1>Photoshoot set <br> $5200.48</h1>
+                            <p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>            
+                                <span>4.99</span>
+                            </p>
+                            <p>Wordwide shifting <br> available <br> Buyers protection possible!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-info">
+                        <div class="photo">
+                            <img src="images/single-light.png" alt="">
+                        </div>
+                        <div class="describtion">
+                            <h1>Vlogging Camera <br> $1500.48</h1>
+                            <p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>                                
+                                <span>4.99</span>
+                            </p>
+                            <p>Wordwide shifting <br> available <br> Buyers protection possible!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-info">
+                        <div class="photo">
+                            <img src="images/mic.png" alt="">
+                        </div>
+                        <div class="describtion">
+                            <h1>Green Screen <br> $250.48</h1>
+                            <p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>                               
+                                <span>5.00</span>
+                            </p>
+                            <p>Wordwide shifting <br> available <br> Buyers protection possible!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-info">
+                        <div class="photo">
+                            <img src="images/action.png" alt="">
+                        </div>
+                        <div class="describtion">
+                            <h1>Airbuds <br> $850.48</h1>
+                            <p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>                               
+                                <span>4.99</span>
+                            </p>
+                            <p>Wordwide shifting <br> available <br> Buyers protection possible!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="read-more-link">
+                <button class="active">Read More <i class="fas fa-arrow-right"></i></button>
+            </div>
+        </section>
+        <!-- won creation section -->
+        <section class="won-creation">
+            <h2 class="section-title">
+                Our <span class="heighlit">Saticfaction</span>
+            </h2>
+            <div class="contacct">
+                <div class="left-contact">
+                    <video src="video/How to pay.mp4.mp4" controls autoplay
+                        loop></video>
+                </div>
+                <div class="contat-from">
+                    <form action="">
+                        <p><span class="heighlit">Influencer products <br> </span> You can massage us. Coustomer
+                            saticfection is our passion. Thank you to vist our web site</p>
+                        <textarea name="" id="" cols="30" rows="5" placeholder="write your openion"></textarea>
+                        <p class="button-position"><button class="my-button">Send</button></p>
+                    </form>
                 </div>
             </div>
         </section>
-        <!-- Top Banner Section End-->
-        <!-- Logos Section Start-->
-        <section id="brand_logos">
-            <div class="container">
-                <div class="logos">
-                    <img src="logos/Alibaba.svg" alt="">
-                    <img src="logos/Amazon.svg" alt="">
-                    <img src="logos/Daraz.pk Logo.svg" alt="">
-                    <img src="logos/Rakuten.svg" alt="">
-                    <img src="logos/Target.svg" alt="">
-                    <img src="logos/Walmart.svg" alt="">
-                </div>
-            </div>
-        </section>
-        <!-- Logos Section End-->
-        <!-- Product Section Start-->
-        <section id="popular_product">
-            <div class="container">
-                <h2 class="section_title">Popular Collection</h2>
-                <div class="product_grids">
-                    <div class="single_grid">
-                        <div class="image"><img src="images/tripod.png" alt=""></div>
-                        <h3 class="product_name">Flex Tripod</h3>
-                        <div class="price">$50.48</div>
-                        <div class="ratings">
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star-half"></ion-icon>
-                            <span>4.9</span>
-                        </div>
-                        <div class="product_info">
-                            <li>Worldwide shipping</li>
-                            <li>Stock Available</li>
-                            <li>Buyers Protection Possible</li>
-                        </div>
-                    </div>
-                    
-                    <div class="single_grid">
-                        <div class="image"><img src="images/mic.png" alt=""></div>
-                        <h3 class="product_name">Microphone</h3>
-                        <div class="price">$35.48</div>
-                        <div class="ratings">
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star-half"></ion-icon>
-                            <span>4.5</span>
-                        </div>
-                        <div class="product_info">
-                            <li>Worldwide shipping</li>
-                            <li>Stock Available</li>
-                            <li>Buyers Protection Possible</li>
-                        </div>
-                    </div>
-                    <div class="single_grid">
-                        <div class="image"><img src="images/airpod.png" alt=""></div>
-                        <h3 class="product_name">Airbuds</h3>
-                        <div class="price">$69.79</div>
-                        <div class="ratings">
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <span>5.00</span>
-                        </div>
-                        <div class="product_info">
-                            <li>Worldwide shipping</li>
-                            <li>Stock Available</li>
-                            <li>Buyers Protection Possible</li>
-                        </div>
-                    
-                    </div>
-                    <div class="single_grid">
-                        <div class="image"><img src="images/drone.png" alt=""></div>
-                        <h3 class="product_name">Drone</h3>
-                        <div class="price">$50.48</div>
-                        <div class="ratings">
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star-half"></ion-icon>
-                            <span>4.8</span>
-                        </div>
-                        <div class="product_info">
-                            <li>Worldwide shipping</li>
-                            <li>Stock Available</li>
-                            <li>Buyers Protection Possible</li>
-                        </div>
-                    
-                    </div>
-                    <div class="single_grid">
-                        <div class="image"><img src="images/lights.png" alt=""></div>
-                        <h3 class="product_name">Light Setup</h3>
-                        <div class="price">$50.48</div>
-                        <div class="ratings">
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star-half"></ion-icon>
-                            <span>4.8</span>
-                        </div>
-                        <div class="product_info">
-                            <li>Worldwide shipping</li>
-                            <li>Stock Available</li>
-                            <li>Buyers Protection Possible</li>
-                        </div>
-                    
-                    </div>
-                    <div class="single_grid">
-                        <div class="image"><img src="images/single-light.png" alt=""></div>
-                        <h3 class="product_name">Photoshoot set</h3>
-                        <div class="price">$50.48</div>
-                        <div class="ratings">
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star-half"></ion-icon>
-                            <span>4.8</span>
-                        </div>
-                        <div class="product_info">
-                            <li>Worldwide shipping</li>
-                            <li>Stock Available</li>
-                            <li>Buyers Protection Possible</li>
-                        </div>
-                    
-                    </div>
-                    <div class="single_grid">
-                        <div class="image"><img src="images/setup.png" alt=""></div>
-                        <h3 class="product_name">Vlogging Camera</h3>
-                        <div class="price">$50.48</div>
-                        <div class="ratings">
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star-half"></ion-icon>
-                            <span>4.8</span>
-                        </div>
-                        <div class="product_info">
-                            <li>Worldwide shipping</li>
-                            <li>Stock Available</li>
-                            <li>Buyers Protection Possible</li>
-                        </div>
-                    
-                    </div>
-                    <div class="single_grid">
-                        <div class="image"><img src="images/single-light.png" alt=""></div>
-                        <h3 class="product_name">Green Screen</h3>
-                        <div class="price">$50.48</div>
-                        <div class="ratings">
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star-half"></ion-icon>
-                            <span>4.9</span>
-                        </div>
-                        <div class="product_info">
-                            <li>Worldwide shipping</li>
-                            <li>Stock Available</li>
-                            <li>Buyers Protection Possible</li>
-                        </div>
-                    
-                    </div>
-                    <div class="single_grid">
-                        <div class="image"><img src="images/action.png" alt=""></div>
-                        <h3 class="product_name">Action Camera</h3>
-                        <div class="price">$50.48</div>
-                        <div class="ratings">
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star"></ion-icon>
-                            <ion-icon name="star-half"></ion-icon>
-                            <span>4.8</span>
-                        </div>
-                        <div class="product_info">
-                            <li>Worldwide shipping</li>
-                            <li>Stock Available</li>
-                            <li>Buyers Protection Possible</li>
-                        </div>
-                    
-                    </div>
-                </div>
-                <div class="bottom_button">
-                    <a href="" class="button see_more">See More<ion-icon name="arrow-forward-outline" class="right_arrow"></ion-icon></a>
-                </div>
-            </div>
-        </section>
-        <!-- Product Section End-->
     </main>
+    <footer>
+        <div class="footer-contenet">
+            <h3>Influencer products</h3>
+            <small>Copyright &copy; 2020 influencer products <br>All rights reserved</small>
+            <p>
+                <a href=""><i class="fab fa-facebook-square social-bar"></i></a>
+                <a href=""><i class="fab fa-linkedin social-bar"></i></a>
+                <a href=""><i class="fab fa-instagram-square social-bar"></i></a>
+                <a href=""><i class="fab fa-github-square social-bar"></i></a>
+
+            </p>
+        </div>
+    </footer>
 </body>
+
 </html>
